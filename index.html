@@ -21,14 +21,10 @@
         </div>
         <div class="side">
             <div class="formcontent-container">
-                <input type="radio" id="login-tab" name="tabs" checked>
-                <input type="radio" id="signup-tab" name="tabs">
 
-                <div class="formcontainer">
-                    <label for="login-tab" class="tab-label">Login</label>
-                    <label for="signup-tab" class="tab-label">SignUp</label>
-                </div>
-
+               
+                <details id="login-details" open>
+                    <summary>Login</summary>
                 <div id="login" class="formcontent">
                     <h2>Login</h2>
                     <img src="images/authentication.svg" alt="Login Image" class="form-image">
@@ -44,6 +40,9 @@
                         </div>
                     </form>
                 </div>
+                </details>
+                <details id="signup-details">
+                    <summary>SignUp</summary>
                 <div id="signup" class="formcontent">
                     <h2>SignUp</h2>
                     <img src="images/sign-up.svg" alt="SignUp Image" class="form-image">
@@ -61,6 +60,7 @@
                         </div>
                     </form>
                 </div>
+            </details>
             </div>
         </div>
     </div>
