@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+}
+
+.content {
+    flex: 7;
+    padding: 20px;
+    background: #D3959B;
+    background: -webkit-linear-gradient(to left, #BFE6BA, #D3959B);
+    background: linear-gradient(to left, #BFE6BA, #D3959B);
+    text-align: center;
+}
+
+.hotel-image {
+    width: 50%;
+    max-width: 600px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+h1 {
+    font-size: 36px;
+    color: #1e5c1e;
+}
+
+.description {
+    font-size: 14px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    padding: 0 15px;
+    font-family: cursive;
+}
+
+.side {
+    flex: 3;
+    background: #d9a7c7; 
+    background: -webkit-linear-gradient(to right, #fffcdc, #d9a7c7);
+    background: linear-gradient(to right, #fffcdc, #d9a7c7); 
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-left: 5px solid #ccc;
+    justify-content: center;
+}
+
+/* 
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+} */
+
+.tab-label {
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #6b6beb;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.tab-label:hover {
+    background-color: #5757d1;
+}
+
+
+input[type="radio"] {
+    display: none;
+}
+
+.formcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; 
+    margin-top: 20px;
+}
+
+#login-tab:checked ~ #login,
+#signup-tab:checked ~ #signup {
+    display: block;
+}
+
+.formcontent {
+    display: none;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    height: 500px;
+    margin-top: 20px;
+}
+
+.formcontent h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #2a2a2a;
+}
+
+.form-image {
+    width: 60px;
+    margin-bottom: 20px;
+}
+
+input{
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #6b6beb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #5757d1;
+}
+.form-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+    
+}
+
+.forgot-password, .create-account {
+    margin-top: 3px;
+    margin-right: 20px; 
+    cursor: pointer;
+    color: #6b6beb;
+    font-size: medium;
+}
+
+.form-links-signup {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    
+}
+
+.login-account{
+    margin-right: 20px; 
+    cursor: pointer;
+    color: #6b6beb;
+    font-size: medium;
+}
