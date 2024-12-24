@@ -10,7 +10,7 @@ This is the folder structure:
 ```
 bootstrap/                      # Folder containing Bootstrap tasks
 │
-├── Task_1/                     #Task_1 folder
+├── Task_1/                     # Task_1 folder
 │   ├── index.html              # HTML file for Task 1
 │   ├── index.css               # CSS file for Task 1
 │   ├── images/                 # Images used in Task 1
