@@ -4,6 +4,7 @@
 
 This is the folder structure:
 
+```
 Training_2024_2025/
 │
 ├── html_css/                   # Folder containing HTML and CSS tasks
@@ -21,3 +22,4 @@ Training_2024_2025/
 │
 ├── LICENSE                     # License file for the project
 └── README.md                   # Main project documentation
+```
