@@ -19,6 +19,8 @@ To get started with this project, follow these steps:
 #### Clone the repository:
 
 `git clone https://github.com/mitanshu-kelaiya-inventyv/html_css/Task_1`
+Go to copied directory.
+Open `index.html` in browser.
 
 ### Usage
 This example demonstrates how to use the `<details>` and `<summary>` tags to create interactive tab-like functionality.
