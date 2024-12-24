@@ -5,7 +5,7 @@
 This is the folder structure:
 
 ```
-Training_2024_2025/
+Training_2024_2025/                 # Root Folder
 │
 ├── bootstrap/                      # Folder containing Bootstrap tasks
 │   │
@@ -35,5 +35,5 @@ Training_2024_2025/
 │   └── README.md                   # Folder structure of html_css
 │
 ├── LICENSE                         # License file for the project
-└── README.md                       # Folder structure of root directory
+└── README.md                       # Folder structure of root folder
 ```
