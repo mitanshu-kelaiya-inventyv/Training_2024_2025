@@ -9,7 +9,7 @@ Training_2024_2025/                 # Root Folder
 │
 ├── bootstrap/                      # Folder containing Bootstrap tasks
 │   │
-│   ├── Task_1/                     # Task 1 folder
+│   ├── Task_1/                     # Task_1 folder
 │   │   ├── index.html              # HTML file for Task 1
 │   │   ├── index.css               # CSS file for Task 1
 │   │   ├── images/                 # Images used in Task 1
@@ -23,7 +23,7 @@ Training_2024_2025/                 # Root Folder
 │
 ├── html_css/                       # Folder containing HTML and CSS tasks
 │   │
-│   ├── Task_1/                     # Task 1 folder
+│   ├── Task_1/                     # Task_1 folder
 │   │   ├── index.html              # HTML file for Task 1
 │   │   ├── index.css               # CSS file for Task 1
 │   │   ├── images/                 # Images used in Task 1
