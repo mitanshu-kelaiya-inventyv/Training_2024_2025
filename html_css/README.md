@@ -7,7 +7,7 @@ Tasks in this folder are related to HTML and CSS. The tasks in this folder are o
 
 This is the folder structure:
 
-
+```
 html_css/
 │
 ├── Task_1/
@@ -20,5 +20,5 @@ html_css/
 │   └── README.md               # Documentation for Task 1
 │
 └── README.md                  
-
+```
 
