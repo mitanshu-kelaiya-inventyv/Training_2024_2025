@@ -1,0 +1,118 @@
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    color: #333;
+}
+
+.left {
+    background: #D3959B;
+    background: -webkit-linear-gradient(to left, #BFE6BA, #D3959B);
+    background: linear-gradient(to left, #BFE6BA, #D3959B);
+    align-items: center;
+    padding: 20px;
+    min-height: 100vh;
+    flex: 7;
+    
+}
+.description {
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: justify;
+}
+.right {
+    background: #d9a7c7; 
+    background: -webkit-linear-gradient(to right, #fffcdc, #d9a7c7);
+    background: linear-gradient(to right, #fffcdc, #d9a7c7); 
+    min-height: 100vh;
+    border-left: 5px solid #ccc;
+    flex: 3;
+}
+.tabs {
+    margin-top: 2rem;
+}
+.form-control {
+    margin-bottom: 1rem;
+}
+.tab-btn:hover {
+    background-color: #9797ff;
+    color: black;
+}
+
+.tab-btn{
+    padding: 10px 20px;
+    background-color: #6b6beb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-button, .signup-button {
+    padding: 10px 20px;
+    background-color: #6b6beb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-button:hover, .signup-button:hover {
+    background-color: #5757d1;
+}
+
+.form-image {
+    width: 60px;
+    margin-bottom: 20px;
+}
+
+.formcontent {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    height: 560px;
+    margin-top: 20px;
+}
+
+.formcontent h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #2a2a2a;
+}
+
+input{
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+.form-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+    
+}
+
+.forgot-password, .create-account {
+    margin-top: 3px;
+    margin-right: 20px; 
+    cursor: pointer;
+    color: #6b6beb;
+    font-size: medium;
+}
+
+.form-links-signup {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    color: #6b6beb;
+    font-size: medium;
+}

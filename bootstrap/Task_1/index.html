@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <title>Inventyv</title>
+
+</head>
+<body>
+    <div class=" d-flex">
+        <!-- Left Section -->
+        <div class="col-lg d-flex flex-column justify-content-center left">
+            <div class="text-center">
+                <img src="images/logo.jpg" alt="Company Logo" class="mb-4" style="height: 350px; width: auto; border-radius: 10px;">
+                <p class="description">
+                    At The Royal Hotels, we pride ourselves on offering unparalleled luxury and comfort. With a rich heritage of excellence, our collection of prestigious hotels provides world-class accommodations, exceptional dining experiences, and personalized service to ensure every stay is unforgettable.
+                </p>
+                <p class="description">
+                    Whether you’re traveling for business, leisure, or a special occasion, The Royal is your perfect destination. Our elegant suites, state-of-the-art amenities, and warm, welcoming staff create an ambiance of sophistication and serenity. From tranquil retreats to vibrant cityscapes, each of our properties is thoughtfully designed to reflect the unique culture and charm of its location.
+                    Discover a world where timeless elegance meets modern luxury. Experience The Royal Hotels – where every guest is treated like royalty.
+                </p>
+            </div>
+        </div>
+        <div class="col-lg right d-flex flex-column justify-content-center px-4" >
+            <div class="tabs">
+                <ul class="nav nav-tabs nav-justified" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active tab-btn" id="login-tab" data-bs-toggle="tab" data-bs-target="#login" type="button" role="tab" aria-controls="login" aria-selected="true">
+                            Login
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link tab-btn" id="register-tab" data-bs-toggle="tab" data-bs-target="#register" type="button" role="tab" aria-controls="register" aria-selected="false">
+                            Register
+                        </button>
+                    </li>
+                </ul>
+
+                <div class="tab-content mt-4 formcontent" id="myTabContent">
+                    <div class="tab-pane fade show active" id="login" role="tabpanel" aria-labelledby="login-tab">
+                        <h2 class="text-center mb-4">Login</h2>
+                        <img src="images/authentication.svg" alt="Login Image" class="form-image">
+                        <form>
+                            <label for="username">Username:</label><br>
+                            <input type="text" id="username" name="username" placeholder="Enter your username"><br><br>
+                            <label for="password">Password:</label><br>
+                            <input type="password" id="password" name="password" placeholder="Enter your password"><br><br>
+                            <button type="submit" class="login-button">Login</button>
+                            <div class="form-links">
+                                <span class="forgot-password">Forgot Password?</span>
+                                <span class="create-account">Create a new account</span>
+                            </div>
+                        </form>
+                    </div>
+
+                    <!-- Register Form -->
+                    <div class="tab-pane fade" id="register" role="tabpanel" aria-labelledby="register-tab">
+                        <h2 class="text-center mb-4">SignUp</h2>
+                        <img src="images/sign-up.svg" alt="SignUp Image" class="form-image">
+                        <form>
+                            <label for="email">Email:</label><br>
+                            <input type="email" id="email" name="email" placeholder="Enter your email"><br><br>
+                            <label for="username">Username:</label><br>
+                            <input type="text" id="username" name="username" placeholder="Create username"><br><br>
+                            <label for="new-password">Password:</label><br>
+                            <input type="password" id="new-password" name="new-password" placeholder="Create a password"><br><br>
+                            <button type="submit" class="signup-button">SignUp</button>
+                            <div class="form-links-signup">
+                                <span>Already have an account?</span>&nbsp;
+                                <span class="login-account">Login</span>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
