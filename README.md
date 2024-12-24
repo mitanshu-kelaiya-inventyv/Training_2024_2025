@@ -18,7 +18,7 @@ Training_2024_2025/
 │   │   │   └── sign-up.svg         # Sign-up image
 │   │   └── README.md               # Documentation for Task 1
 │   │
-│   └── README.md                   # Main project documentation
+│   └── README.md                   # Folder structure of bootstrap
 │
 │
 ├── html_css/                       # Folder containing HTML and CSS tasks
@@ -32,8 +32,8 @@ Training_2024_2025/
 │   │   │   └── sign-up.svg         # Sign-up image
 │   │   └── README.md               # Documentation for Task 1
 │   │
-│   └── README.md                   # Main project documentation
+│   └── README.md                   # Folder structure of html_css
 │
 ├── LICENSE                         # License file for the project
-└── README.md                       # Main project documentation
+└── README.md                       # Folder structure of root directory
 ```
