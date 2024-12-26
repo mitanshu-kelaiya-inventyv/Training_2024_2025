@@ -14,6 +14,6 @@ javascript/                     # Folder containing Javascript tasks
 │   ├── array.js                # JS file for Task 1
 │   └── README.md               # Documentation for Task 1
 │
-└── README.md                   # Documentation containing folder structure of javascript
+└── README.md                   # Folder structure of javascript
 ```
 
