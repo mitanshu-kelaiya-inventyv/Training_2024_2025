@@ -1,14 +1,14 @@
 # javascript
 
 ## Overview
-Tasks in this folder are related to Javascript.
+Tasks in this folder are related to JavaScript.
 
 ## Folder Structure
 
 This is the folder structure:
 
 ```
-javascript/                     # Folder containing Javascript tasks
+javascript/                     # Folder containing JavaScript tasks
 │
 ├── Task_1/                     # Task_1 folder
 │   ├── array.js                # JS file for Task 1
