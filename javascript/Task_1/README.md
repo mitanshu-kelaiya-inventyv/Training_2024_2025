@@ -12,3 +12,12 @@
 1. Copy the code into a JavaScript file.
 2. Run the file in a Node.js environment or a browser console.
 3. Observe the output in the console.
+
+## Example Output
+```bash
+Sum is less than or equal to 30
+```
+or
+```bash
+Sum is greater than 30
+```
