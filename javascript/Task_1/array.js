@@ -19,9 +19,9 @@ function main_fun(element, ...rest){
 
     return new Promise((resolve, reject)=>{
         if(sum>30){
-            resolve("Sum is greater than 30")
+            resolve("Sum is greater than 30");
         }else{
-            reject("Sum is less than 30");
+            reject("Sum is less than or equal 30");
         }
     })
 }
