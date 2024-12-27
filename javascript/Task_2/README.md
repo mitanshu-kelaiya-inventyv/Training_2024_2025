@@ -17,6 +17,7 @@
 ```bash
 Sum is less than or equal to 30
 ```
+or
 ```bash
 Sum is greater than 30
 ```
