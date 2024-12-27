@@ -1,4 +1,4 @@
-# Javascript program with IIFE,Symbol data type, Rest, Spread, shift, unshift and Promise
+# JavaScript program with IIFE,Symbol data type, Rest, Spread, shift, unshift and Promise
 
 # Overview
 ### This program demonstrates the use of JavaScript features such as IIFE (Immediately Invoked Function Expression), Symbol data type, Promises, and array manipulation methods like shift() and unshift(). It performs a calculation based on the sum of description of symbols in arrays and resolves or rejects a promise depending on the result.
