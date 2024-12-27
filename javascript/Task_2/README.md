@@ -16,6 +16,7 @@
 ## Example Output
 ```bash
 Sum is less than or equal to 30
-
+```
 ```bash
 Sum is greater than 30
+```
