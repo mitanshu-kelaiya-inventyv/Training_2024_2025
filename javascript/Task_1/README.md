@@ -1,4 +1,4 @@
-# Javascript program with IIFE, Rest, Spread, shift, unshift and Promise
+# JavaScript program with IIFE, Rest, Spread, shift, unshift and Promise
 
 ## Overview
 ### This program demonstrates the use of JavaScript features such as IIFE (Immediately Invoked Function Expression), Promises, and array manipulation methods like shift() and unshift(). It performs a calculation based on the sum of numbers in arrays and resolves or rejects a promise depending on the result.
