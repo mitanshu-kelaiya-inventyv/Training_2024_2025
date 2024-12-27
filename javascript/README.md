@@ -1,7 +1,7 @@
 # javascript
 
 ## Overview
-Tasks in this folder are related to JavaScript.
+Tasks in this folder are mainly related to JavaScript.
 
 ## Folder Structure
 
