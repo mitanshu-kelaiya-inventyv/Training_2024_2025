@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p class="userData"></p>
+    <p class="timer"></p>
+    <button class="logout">End Session</button>
+
+    <script>
+        const userData = document.querySelector(".userData");
+        const timer = document.querySelector(".timer");
+        const logout= document.querySelector(".logout");
+        const params = new URLSearchParams(window.location.search);
+        const userID = params.get("userID");
+        const user = JSON.parse(localStorage.getItem("users")).find(user => user.userID == userID)
+        //console.log(user)
+        userData.innerHTML = `Hello <strong> ${user.username}. </strong>   Your email-id is <strong><i>${user.email}.</i></strong>`
+        
+
+        const sessionCheck = setInterval(function() {
+          const elapsedTime = Date.now() - sessionStorage.getItem('startTime');
+          timer.innerHTML = `Remaining Session Time: <strong>${Math.round(42 - (elapsedTime / 1000))} seconds</strong>`
+        //   console.log(elapsedTime)
+            if (elapsedTime >= 42000) {
+                timer.innerHTML = `Remaining Session Time: <strong>0 seconds</strong>`
+                sessionStorage.clear();
+                alert('Session expired!');
+
+                clearInterval(sessionCheck);
+                window.location.href='index.html'; 
+            }
+        }, 1000);
+
+        logout.addEventListener('click', function(){
+                
+                timer.innerHTML = `Remaining Session Time: <strong>0 seconds</strong>`
+                sessionStorage.clear();
+                alert('Session expired!');
+                clearInterval(sessionCheck);
+                window.location.href='index.html'; 
+        })
+    </script>
+</body>
+</html>

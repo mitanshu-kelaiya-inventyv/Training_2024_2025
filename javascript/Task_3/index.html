@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <title>The Royal Hotels</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <img src="images/logo.jpg" alt="The Royal Hotel" class="hotel-image" />
+        <h1>The Royals</h1>
+        <p class="description">
+          At The Royal Hotels, we pride ourselves on offering unparalleled
+          luxury and comfort. With a rich heritage of excellence, our collection
+          of prestigious hotels provides world-class accommodations, exceptional
+          dining experiences, and personalized service to ensure every stay is
+          unforgettable.
+        </p>
+        <p class="description">
+          Whether you’re traveling for business, leisure, or a special occasion,
+          The Royal is your perfect destination. Our elegant suites,
+          state-of-the-art amenities, and warm, welcoming staff create an
+          ambiance of sophistication and serenity. From tranquil retreats to
+          vibrant cityscapes, each of our properties is thoughtfully designed to
+          reflect the unique culture and charm of its location. Discover a world
+          where timeless elegance meets modern luxury. Experience The Royal
+          Hotels – where every guest is treated like royalty.
+        </p>
+      </div>
+      <div class="side">
+        <div class="formcontent-container">
+          <details id="login-details" open>
+            <summary id="login-summary">Login</summary>
+            <div id="login" class="formcontent">
+              <h2>Login</h2>
+              <img
+                src="images/authentication.svg"
+                alt="Login Image"
+                class="form-image"
+              />
+              <form id="loginForm">
+                <label for="username">Username:</label><br />
+                <input
+                  type="text"
+                  id="username"
+                  name="username"
+                  placeholder="Enter your username"
+                /><br /><br />
+                <label for="password">Password:</label><br />
+                <input
+                  type="password"
+                  id="password"
+                  name="password"
+                  placeholder="Enter your password"
+                /><br /><br />
+                <button type="submit">Login</button>
+                <div class="form-links">
+                  <span class="forgot-password">Forgot Password?</span>
+                  <span class="create-account">Create a new account</span>
+                </div>
+              </form>
+            </div>
+          </details>
+          <details id="signup-details">
+            <summary id="signup-summary">SignUp</summary>
+            <div id="signup" class="formcontent">
+              <h2>SignUp</h2>
+              <img
+                src="images/sign-up.svg"
+                alt="SignUp Image"
+                class="form-image"
+              />
+              <form id="signupForm" >
+                <label for="email">Email:</label><br />
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Enter your email"
+                /><br /><br />
+                <label for="username">Username:</label><br />
+                <input
+                  type="text"
+                  id="username"
+                  name="username"
+                  placeholder="Create username"
+                /><br /><br />
+                <label for="new-password">Password:</label><br />
+                <input
+                  type="password"
+                  id="new-password"
+                  name="new-password"
+                  placeholder="Create a password"
+                /><br /><br />
+                <button type="submit">SignUp</button>
+                <div class="form-links-signup">
+                  <span>Already have an account?</span>&nbsp;
+                  <span class="login-account">Login</span>
+                </div>
+              </form>
+            </div>
+          </details>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      const signupForm = document.getElementById("signupForm");
+      const loginForm = document.getElementById("loginForm");
+      console.log(loginForm);
+      console.log(signupForm);
+      localStorage.setItem("userCount", 0);
+      const emailInputSignup = signupForm.querySelector('input[type="email"]');
+      const usernameInputSignup = signupForm.querySelector('input[name="username"]');
+      const passwordInputSignup = signupForm.querySelector('input[name="new-password"]');
+      const signupButton = signupForm.querySelector('button[type="submit"]');
+      const users = JSON.parse(localStorage.getItem('users')) || [];
+      signupButton.addEventListener('click', function(e){
+        e.preventDefault();
+        alert(`Username: ${usernameInputSignup.value}, E-mail:${emailInputSignup.value}, Password: ${passwordInputSignup.value}`)
+        
+
+        users.push({
+          userID : users.length + 1,
+          email : emailInputSignup.value,
+          username : usernameInputSignup.value,
+          password : passwordInputSignup.value
+        })
+        
+        localStorage.setItem('users', JSON.stringify(users));
+        localStorage.setItem("userCount", users.length);
+        console.log()
+        document.getElementById("signup-summary").click();
+        document.getElementById("login-summary").click();
+        
+      })
+
+      
+      const usernameInputLogin = loginForm.querySelector('input[name="username"]');
+      const passwordInputLogin = loginForm.querySelector('input[name="password"]');
+      const loginButton = loginForm.querySelector('button[type="submit"]');
+
+      loginButton.addEventListener('click', function(e){
+        e.preventDefault();
+        alert(`Username: ${usernameInputLogin.value}, Password: ${passwordInputLogin.value}`);
+        let len = users.length;
+        console.log(len);
+        let flag = false;
+        for(let user of users){
+        if(user.username==usernameInputLogin.value && user.password==passwordInputLogin.value)
+        {
+          sessionStorage.setItem('startTime', Date.now());
+         window.location.href = `home.html?userID=${user.userID}`;
+         flag = true;
+        }
+      }
+        if(!flag){
+          alert("Wrong credentials");
+        }
+      })
+    </script>
+  </body>
+</html>
