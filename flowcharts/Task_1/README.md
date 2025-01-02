@@ -20,7 +20,7 @@ This repository contains C programs and commented JavaScript code representing f
 
 ## Flowcharts
 
-- You can access flowcharts via: [FigJam]((https://www.figma.com/board/Q4PdnD7snWG3TRdxtzDq7R/Flowcharts?t=tk5c3z6sQwHZoxec-0))
+- You can access flowcharts via: [FigJam](https://www.figma.com/board/Q4PdnD7snWG3TRdxtzDq7R/Flowcharts?t=tk5c3z6sQwHZoxec-0)
 
 ## Features
 
