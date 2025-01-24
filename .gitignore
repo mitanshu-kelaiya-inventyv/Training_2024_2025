@@ -1,4 +1,6 @@
-# Ignore all target directories recursively
+# In a .gitignore file, the * character is a wildcard that matches zero or more characters within a file or directory name.
+
+# Ignore target directories in rust project
 rust/*/target/
 
 # Ignore IDE-specific files (optional)
