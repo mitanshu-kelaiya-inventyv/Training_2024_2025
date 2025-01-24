@@ -9,4 +9,5 @@ rust/*/target/
 **/*.rs.bk
 
 # Ignore dependency and build metadata
-rust/*/target/Cargo.lock
+# If most of your projects are binary applications, you can remove rust/*/Cargo.lock from your .gitignore. If you’re working on libraries, it’s fine to leave it there.
+# rust/*/Cargo.lock
