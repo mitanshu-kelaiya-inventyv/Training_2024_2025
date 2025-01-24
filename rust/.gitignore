@@ -1,0 +1,12 @@
+# Ignore all target directories recursively
+**/target/
+
+# Ignore IDE-specific files (optional)
+.idea/
+.vscode/
+
+# Ignore build artifacts
+**/*.rs.bk
+
+# Ignore dependency and build metadata
+**/Cargo.lock
