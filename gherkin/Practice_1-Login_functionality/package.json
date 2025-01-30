@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx cucumber-js",
+    "test": "npx cucumber-js --format json:reports/cucumber_report.json",
     "generate-report": "node generate-report.js"
   },
   "keywords": [],
