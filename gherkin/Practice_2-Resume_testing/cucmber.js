@@ -1,9 +1,9 @@
 // cucumber.js
 module.exports = {
     default: {
-      require: ["features/step-definitions/footer.js"],
+      require: ["features/step-definitions/*.js"],
       format: ["progress-bar", "json:reports/cucumber-report.json"],
-      paths: ["features/footer.feature"],
+      paths: ["features/*.feature"],
     }
   };
   // module.exports = {
