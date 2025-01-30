@@ -1,0 +1,158 @@
+.home{
+  position: relative;
+}
+
+.bgImage{
+    height: 600px;
+    width: 100vw;
+    opacity: 0.7;
+}
+.personal{
+    position:absolute;
+    top: 120px;
+    left: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.personalImg{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 5px solid rgb(146, 146, 146);
+}
+.personalName, .personaltitle{
+    margin-top: 5px;
+    color: black;
+    padding: 2px;
+}
+
+.personalName{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.personaltitle{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.cvbutton{
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    background-color: skyblue;
+    font-weight: 600;
+    cursor: pointer;
+    color: rgb(0, 86, 19);
+    font-size: 15px;
+}
+
+.personalIcons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* position: relative; */
+    margin-top: 120px;
+    width: 125px;
+}
+.emailiconcontainer, .linkediniconcontainer{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.emailiconcontainer{
+    background-color: rgb(255, 115, 115);
+}
+
+.linkediniconcontainer{
+    background-color: rgb(0, 94, 255);
+}
+
+
+.personalInfo{
+    color: black;
+    margin: 40px 80px ;
+    display: flex;
+    -webkit-box-shadow: 0px 0px 9px 1px rgba(0,0,0,0.37);
+-moz-box-shadow: 0px 0px 9px 1px rgba(0,0,0,0.37);
+box-shadow: 0px 0px 9px 1px rgba(0,0,0,0.37);
+padding: 10px;
+align-items: center;
+}
+
+.personalInfoleft{
+    border-right: 2px solid red;
+    color: rgb(61, 60, 60);
+    width: 50%;
+}
+
+.personalInforight{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutInfo{
+    margin-top: 10px;
+}
+
+.icon{
+    margin-right: 4px;
+}
+
+.personalDetails{
+    color: rgb(71, 70, 70);
+}
+
+.skillInfo{
+    color: black;
+    margin: 40px 80px ;
+    display: flex;
+    -webkit-box-shadow: 0px 0px 9px 1px rgba(0,0,0,0.37);
+-moz-box-shadow: 0px 0px 9px 1px rgba(0,0,0,0.37);
+box-shadow: 0px 0px 9px 1px rgba(0,0,0,0.37);
+padding: 10px;
+flex-direction: column;
+}
+
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.skillName{
+    flex:50%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+.progress-bar {
+    width: 225px;
+    background-color: #f3f3f3;
+    border-radius: 13px;
+    padding: 3px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, .2);
+    height: 3px;
+    margin-left: 10px;
+}
+
+.progress {
+    display: block;
+    height: 2px;
+    border-radius: 10px;
+    border: none;
+    background-color: #0066ff;
+    width: 50%; /* Adjust this to represent the actual progress */
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, .2),
+                inset 0 0 10px rgba(255, 255, 255, .1);
+}

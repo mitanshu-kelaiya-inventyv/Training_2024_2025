@@ -1,0 +1,62 @@
+.projectMain{
+    color: black;
+    padding: 20px;
+    margin-top: 65px;
+    background-color: aliceblue;
+}
+
+.projects{
+    border: none;
+    /* border-radius: 10px; */
+    -webkit-box-shadow: 0px 0px 9px 1px rgba(0,0,0,0.37);
+-moz-box-shadow: 0px 0px 9px 1px rgba(0,0,0,0.37);
+box-shadow: 0px 0px 9px 1px rgba(0,0,0,0.37);
+margin:  0 30px;
+padding: 10px;
+background-color: white;
+
+}
+.projectContainer{
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.projectTitleMain{
+font-size: 20px;
+font-weight: 600;
+}
+
+.projectInfo{
+    width: 350px;
+    /* border: none; */
+    padding: 10px;
+    -webkit-box-shadow: 0px 0px 9px 1px rgba(0,0,0,0.37);
+-moz-box-shadow: 0px 0px 9px 1px rgba(0,0,0,0.37);
+box-shadow: 0px 0px 9px 1px rgba(0,0,0,0.37);
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 20px;
+background-color: rgb(227, 253, 251);
+border: 4px inset black;
+}
+
+.projectLogo {
+    margin-top: 5px;
+    width: 300px;
+    border-radius: 10px;
+    height: 300px;
+}
+
+.projectTitle{
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 2px;
+}
+
+.projectDesc{
+    text-align: justify;
+    margin-top: 5px;
+}

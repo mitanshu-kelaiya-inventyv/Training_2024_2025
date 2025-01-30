@@ -1,0 +1,27 @@
+{
+  "name": "resume-in-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app",
+    "test": "npx cucumber-js --format json:reports/cucumber_report.json",
+    "generate-report": "node generate_report.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "font-awesome": "^4.7.0"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.2.0",
+    "chai": "^5.1.2",
+    "cucumber-html-reporter": "^7.2.0",
+    "nodemon": "^3.0.1",
+    "playwright": "^1.50.0"
+  }
+}

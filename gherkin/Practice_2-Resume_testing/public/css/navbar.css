@@ -1,0 +1,37 @@
+.navbar{
+    font-size:24px;
+    position: fixed;
+    top:0;
+    z-index: 999;
+    width: 100%;
+    padding: 5px;
+    background-color: black;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+a.navlink{
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    padding: 10px;
+    margin-left: 10px;
+    color: rgb(255, 255, 255);
+}
+
+a.navlink:hover{
+    background-color: #9400c4;
+    border-radius: 5px;
+    color: rgb(17, 255, 0);
+}
+
+a.active{
+    color: rgb(17, 255, 0);
+}
+
+.opac{
+    background: linear-gradient(to top, transparent 0%, rgba(0, 0, 0, 0.3) 50%);
+}
+

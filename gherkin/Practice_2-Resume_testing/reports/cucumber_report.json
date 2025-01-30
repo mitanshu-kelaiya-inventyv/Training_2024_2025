@@ -1,0 +1,377 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "footer-ui-and-links;verify-that-the-footer-is-visible-on-the-home-page",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Verify that the footer is visible on the home page",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I am on the \"home\" page",
+            "match": {
+              "location": "file:\\C:\\Users\\Mitanshu\\Desktop\\Inventyv_Internship\\Training_2024_2025\\gherkin\\Practice_2-Resume_testing\\features\\step-definitions\\footer.js:78"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2290777999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "the footer should be visible",
+            "match": {
+              "location": "file:\\C:\\Users\\Mitanshu\\Desktop\\Inventyv_Internship\\Training_2024_2025\\gherkin\\Practice_2-Resume_testing\\features\\step-definitions\\footer.js:92"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 35708699
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 321316300
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "footer-ui-and-links;verify-that-the-footer-is-visible-on-the-skill-page",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Verify that the footer is visible on the skill page",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I am on the \"skill\" page",
+            "match": {
+              "location": "file:\\C:\\Users\\Mitanshu\\Desktop\\Inventyv_Internship\\Training_2024_2025\\gherkin\\Practice_2-Resume_testing\\features\\step-definitions\\footer.js:78"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 862600500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "the footer should be visible",
+            "match": {
+              "location": "file:\\C:\\Users\\Mitanshu\\Desktop\\Inventyv_Internship\\Training_2024_2025\\gherkin\\Practice_2-Resume_testing\\features\\step-definitions\\footer.js:92"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 34286900
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 290113499
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "footer-ui-and-links",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Footer UI and Links",
+    "tags": [],
+    "uri": "features\\footer.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "home-page-ui-and-content;verify-background-image-on-home-page",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Verify Background Image on Home Page",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to the home page",
+            "match": {
+              "location": "file:\\C:\\Users\\Mitanshu\\Desktop\\Inventyv_Internship\\Training_2024_2025\\gherkin\\Practice_2-Resume_testing\\features\\step-definitions\\home_page.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 862378200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "the background image should load correctly",
+            "match": {
+              "location": "file:\\C:\\Users\\Mitanshu\\Desktop\\Inventyv_Internship\\Training_2024_2025\\gherkin\\Practice_2-Resume_testing\\features\\step-definitions\\home_page.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2050934200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "the background image width should be 100vw",
+            "match": {
+              "location": "file:\\C:\\Users\\Mitanshu\\Desktop\\Inventyv_Internship\\Training_2024_2025\\gherkin\\Practice_2-Resume_testing\\features\\step-definitions\\home_page.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10837300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "the opacity of the background image should be 0.7",
+            "match": {
+              "location": "file:\\C:\\Users\\Mitanshu\\Desktop\\Inventyv_Internship\\Training_2024_2025\\gherkin\\Practice_2-Resume_testing\\features\\step-definitions\\home_page.js:51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7750900
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2095099
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "home-page-ui-and-content;verify-personal-section-content",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Verify Personal Section Content",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I am on the home page",
+            "match": {
+              "location": "file:\\C:\\Users\\Mitanshu\\Desktop\\Inventyv_Internship\\Training_2024_2025\\gherkin\\Practice_2-Resume_testing\\features\\step-definitions\\home_page.js:65"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 85977400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "the personal section should be displayed with profile image",
+            "match": {
+              "location": "file:\\C:\\Users\\Mitanshu\\Desktop\\Inventyv_Internship\\Training_2024_2025\\gherkin\\Practice_2-Resume_testing\\features\\step-definitions\\home_page.js:69"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17980299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "the profile image should have a height and width of 200px",
+            "match": {
+              "location": "file:\\C:\\Users\\Mitanshu\\Desktop\\Inventyv_Internship\\Training_2024_2025\\gherkin\\Practice_2-Resume_testing\\features\\step-definitions\\home_page.js:77"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 26174999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "the profile image should be circular",
+            "match": {
+              "location": "file:\\C:\\Users\\Mitanshu\\Desktop\\Inventyv_Internship\\Training_2024_2025\\gherkin\\Practice_2-Resume_testing\\features\\step-definitions\\home_page.js:87"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8677799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "the personal name should be displayed in black",
+            "match": {
+              "location": "file:\\C:\\Users\\Mitanshu\\Desktop\\Inventyv_Internship\\Training_2024_2025\\gherkin\\Practice_2-Resume_testing\\features\\step-definitions\\home_page.js:94"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17829299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "the personal title should be displayed in black",
+            "match": {
+              "location": "file:\\C:\\Users\\Mitanshu\\Desktop\\Inventyv_Internship\\Training_2024_2025\\gherkin\\Practice_2-Resume_testing\\features\\step-definitions\\home_page.js:103"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14839299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "the \"Download CV\" button should be visible and clickable",
+            "match": {
+              "location": "file:\\C:\\Users\\Mitanshu\\Desktop\\Inventyv_Internship\\Training_2024_2025\\gherkin\\Practice_2-Resume_testing\\features\\step-definitions\\home_page.js:112"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 70228900
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2221000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "home-page-ui-and-content",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Home Page UI and Content",
+    "tags": [],
+    "uri": "features\\home_page.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "page-title-verification;verify-the-title-of-the-local-server-page",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Verify the title of the local server page",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open \"http://localhost:8000\"",
+            "match": {
+              "location": "file:\\C:\\Users\\Mitanshu\\Desktop\\Inventyv_Internship\\Training_2024_2025\\gherkin\\Practice_2-Resume_testing\\features\\step-definitions\\title-steps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 888958999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "the page title should be \"Mitanshu Kelaiya - Home\"",
+            "match": {
+              "location": "file:\\C:\\Users\\Mitanshu\\Desktop\\Inventyv_Internship\\Training_2024_2025\\gherkin\\Practice_2-Resume_testing\\features\\step-definitions\\title-steps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14465799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I navigate to \"http://localhost:8000/skill\"",
+            "match": {
+              "location": "file:\\C:\\Users\\Mitanshu\\Desktop\\Inventyv_Internship\\Training_2024_2025\\gherkin\\Practice_2-Resume_testing\\features\\step-definitions\\title-steps.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 70692699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "the page title should be \"Mitanshu Kelaiya - Skill\"",
+            "match": {
+              "location": "file:\\C:\\Users\\Mitanshu\\Desktop\\Inventyv_Internship\\Training_2024_2025\\gherkin\\Practice_2-Resume_testing\\features\\step-definitions\\title-steps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5133800
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2134900
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "page-title-verification",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Page Title Verification",
+    "tags": [],
+    "uri": "features\\sample.feature"
+  }
+]
