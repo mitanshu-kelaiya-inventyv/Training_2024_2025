@@ -13,3 +13,5 @@ rust/*/target/
 # Ignore dependency and build metadata
 # If most of your projects are binary applications, you can remove rust/*/Cargo.lock from your .gitignore. If you’re working on libraries, it’s fine to leave it there.
 # rust/*/Cargo.lock
+gherkin/*/node_modules
+gherkin/*/.env
