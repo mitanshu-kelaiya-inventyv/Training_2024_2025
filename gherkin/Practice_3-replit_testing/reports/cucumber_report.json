@@ -1,0 +1,132 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "user-login-functionality-on-replit;successful-login-with-valid-credentials",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Successful login with valid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 667444900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user is on the LearnXinYMinutes homepage",
+            "match": {
+              "location": "file:\\D:\\Inventyv_Internship\\replit_testing\\features\\step-definitions\\replit-login.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4314403199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the user navigates to the login page",
+            "match": {
+              "location": "file:\\D:\\Inventyv_Internship\\replit_testing\\features\\step-definitions\\replit-login.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2093919200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "the user enters a valid \"kelaiyamitanshu\"",
+            "match": {
+              "location": "file:\\D:\\Inventyv_Internship\\replit_testing\\features\\step-definitions\\replit-login.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 26036600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the user enters the correct \"6FuhRASX$_GmjP-\"",
+            "match": {
+              "location": "file:\\D:\\Inventyv_Internship\\replit_testing\\features\\step-definitions\\replit-login.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17747800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "the user clicks the \"Log In\" button",
+            "match": {
+              "location": "file:\\D:\\Inventyv_Internship\\replit_testing\\features\\step-definitions\\replit-login.js:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6446440299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "the user should be redirected to the Replit dashboard",
+            "match": {
+              "location": "file:\\D:\\Inventyv_Internship\\replit_testing\\features\\step-definitions\\replit-login.js:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5007787400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "the user should see their user profile or homepage",
+            "match": {
+              "location": "file:\\D:\\Inventyv_Internship\\replit_testing\\features\\step-definitions\\replit-login.js:50"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 20053300,
+              "error_message": "AssertionError: expected null to exist\n    at World.<anonymous> (file:///D:/Inventyv_Internship/replit_testing/features/step-definitions/replit-login.js:53:28)\n    at async wrapPromiseWithTimeout (D:\\Inventyv_Internship\\replit_testing\\node_modules\\@cucumber\\cucumber\\lib\\time.js:57:12)\n    at async Object.run (D:\\Inventyv_Internship\\replit_testing\\node_modules\\@cucumber\\cucumber\\lib\\user_code_runner.js:64:22)\n    at async Object.run (D:\\Inventyv_Internship\\replit_testing\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\step_runner.js:54:26)\n    at async TestCaseRunner.invokeStep (D:\\Inventyv_Internship\\replit_testing\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:113:16)\n    at async TestCaseRunner.runStep (D:\\Inventyv_Internship\\replit_testing\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:265:26)\n    at async D:\\Inventyv_Internship\\replit_testing\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:196:44\n    at async TestCaseRunner.aroundTestStep (D:\\Inventyv_Internship\\replit_testing\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:138:32)\n    at async TestCaseRunner.runAttempt (D:\\Inventyv_Internship\\replit_testing\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:179:13)\n    at async TestCaseRunner.run (D:\\Inventyv_Internship\\replit_testing\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:154:35)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 376082999
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "user-login-functionality-on-replit",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "User login functionality on Replit",
+    "tags": [],
+    "uri": "features\\replit-login.feature"
+  }
+]
