@@ -1,0 +1,39 @@
+REQUEST - Method: GET - URI: /movie/get_movies/2008 - Time: 2025-02-13 12:53:08
+RESPONSE - Method: GET - URI: /movie/get_movies/2008 - Time: 2025-02-13 12:53:08 - Duration: 8 ms
+REQUEST - Method: GET - URI: /movie/get_movies/2008 - Time: 2025-02-13 12:57:05
+RESPONSE - Method: GET - URI: /movie/get_movies/2008 - Time: 2025-02-13 12:57:05 - Duration: 6 ms
+REQUEST - Method: GET - URI: /movie/get_movies/2008 - Time: 2025-02-13 12:57:11
+RESPONSE - Method: GET - URI: /movie/get_movies/2008 - Time: 2025-02-13 12:57:11 - Duration: 7 ms
+REQUEST - Method: GET - URI: /movie/get_movies/2008 - Time: 2025-02-13 13:03:57
+RESPONSE - Method: GET - URI: /movie/get_movies/2008 - Time: 2025-02-13 13:03:57 - Duration: 2 ms
+REQUEST - Method: POST - URI: /user/register - Time: 2025-02-13 15:00:41
+REQUEST - Method: POST - URI: /user/register - Time: 2025-02-13 15:02:36
+REQUEST - Method: POST - URI: /user/register - Time: 2025-02-13 15:04:02
+REQUEST - Method: POST - URI: /user/login - Time: 2025-02-13 15:05:23
+RESPONSE - Method: POST - URI: /user/login - Time: 2025-02-13 15:05:23 - Duration: 9 ms
+REQUEST - Method: POST - URI: /user/login - Time: 2025-02-13 15:09:52
+RESPONSE - Method: POST - URI: /user/login - Time: 2025-02-13 15:09:52 - Duration: 31 ms
+REQUEST - Method: GET - URI: /movie/get_movies/2008 - Time: 2025-02-13 15:11:08
+RESPONSE - Method: GET - URI: /movie/get_movies/2008 - Time: 2025-02-13 15:11:08 - Duration: 14 ms
+REQUEST - Method: GET - URI: /movie/get_movies/2008 - Time: 2025-02-13 15:15:04
+RESPONSE - Method: GET - URI: /movie/get_movies/2008 - Time: 2025-02-13 15:15:04 - Duration: 2 ms
+REQUEST - Method: GET - URI: /movie/get_movies/2008 - Time: 2025-02-13 15:15:55
+RESPONSE - Method: GET - URI: /movie/get_movies/2008 - Time: 2025-02-13 15:15:55 - Duration: 15 ms
+REQUEST - Method: GET - URI: /movie/get_movies/2008 - Time: 2025-02-13 15:16:13
+RESPONSE - Method: GET - URI: /movie/get_movies/2008 - Time: 2025-02-13 15:16:13 - Duration: 18 ms
+REQUEST - Method: GET - URI: /movie/get_movies/2008 - Time: 2025-02-13 15:17:06
+RESPONSE - Method: GET - URI: /movie/get_movies/2008 - Time: 2025-02-13 15:17:06 - Duration: 11 ms
+REQUEST - Method: GET - URI: /movie/get_movies/2008 - Time: 2025-02-13 15:17:47
+RESPONSE - Method: GET - URI: /movie/get_movies/2008 - Time: 2025-02-13 15:17:47 - Duration: 11 ms
+REQUEST - Method: GET - URI: /movie/get_movies/2008 - Time: 2025-02-13 15:19:19
+RESPONSE - Method: GET - URI: /movie/get_movies/2008 - Time: 2025-02-13 15:19:19 - Duration: 22 ms
+REQUEST - Method: GET - URI: /movie/get_movies/2008 - Time: 2025-02-13 15:22:12
+RESPONSE - Method: GET - URI: /movie/get_movies/2008 - Time: 2025-02-13 15:22:12 - Duration: 24 ms
+REQUEST - Method: GET - URI: /movie/get_movies/2008 - Time: 2025-02-13 15:25:22
+RESPONSE - Method: GET - URI: /movie/get_movies/2008 - Time: 2025-02-13 15:25:22 - Duration: 5 ms
+REQUEST - Method: GET - URI: /movie/get_movies/2008 - Time: 2025-02-13 15:25:53
+RESPONSE - Method: GET - URI: /movie/get_movies/2008 - Time: 2025-02-13 15:25:53 - Duration: 12 ms
+REQUEST - Method: POST - URI: /movie/add_movie - Time: 2025-02-13 15:26:44
+RESPONSE - Method: POST - URI: /movie/add_movie - Time: 2025-02-13 15:26:44 - Duration: 41 ms
+REQUEST - Method: GET - URI: /movie/get_movies/2008 - Time: 2025-02-13 15:27:09
+RESPONSE - Method: GET - URI: /movie/get_movies/2008 - Time: 2025-02-13 15:27:09 - Duration: 19 ms
