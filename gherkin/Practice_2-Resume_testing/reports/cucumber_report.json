@@ -15,11 +15,11 @@
             "line": 4,
             "name": "I am on the \"home\" page",
             "match": {
-              "location": "file:\\C:\\Users\\Mitanshu\\Desktop\\Inventyv_Internship\\Training_2024_2025\\gherkin\\Practice_2-Resume_testing\\features\\step-definitions\\footer.js:78"
+              "location": "file:\\C:\\Users\\Mitanshu\\Desktop\\Inventyv_Internship\\Training_2024_2025\\gherkin\\Practice_2-Resume_testing\\features\\step-definitions\\footer.js:7"
             },
             "result": {
               "status": "passed",
-              "duration": 2290777999
+              "duration": 1951741700
             }
           },
           {
@@ -28,11 +28,11 @@
             "line": 5,
             "name": "the footer should be visible",
             "match": {
-              "location": "file:\\C:\\Users\\Mitanshu\\Desktop\\Inventyv_Internship\\Training_2024_2025\\gherkin\\Practice_2-Resume_testing\\features\\step-definitions\\footer.js:92"
+              "location": "file:\\C:\\Users\\Mitanshu\\Desktop\\Inventyv_Internship\\Training_2024_2025\\gherkin\\Practice_2-Resume_testing\\features\\step-definitions\\footer.js:21"
             },
             "result": {
               "status": "passed",
-              "duration": 35708699
+              "duration": 42286599
             }
           },
           {
@@ -40,7 +40,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 321316300
+              "duration": 355704799
             }
           }
         ],
@@ -60,11 +60,11 @@
             "line": 8,
             "name": "I am on the \"skill\" page",
             "match": {
-              "location": "file:\\C:\\Users\\Mitanshu\\Desktop\\Inventyv_Internship\\Training_2024_2025\\gherkin\\Practice_2-Resume_testing\\features\\step-definitions\\footer.js:78"
+              "location": "file:\\C:\\Users\\Mitanshu\\Desktop\\Inventyv_Internship\\Training_2024_2025\\gherkin\\Practice_2-Resume_testing\\features\\step-definitions\\footer.js:7"
             },
             "result": {
               "status": "passed",
-              "duration": 862600500
+              "duration": 1109456599
             }
           },
           {
@@ -73,11 +73,11 @@
             "line": 9,
             "name": "the footer should be visible",
             "match": {
-              "location": "file:\\C:\\Users\\Mitanshu\\Desktop\\Inventyv_Internship\\Training_2024_2025\\gherkin\\Practice_2-Resume_testing\\features\\step-definitions\\footer.js:92"
+              "location": "file:\\C:\\Users\\Mitanshu\\Desktop\\Inventyv_Internship\\Training_2024_2025\\gherkin\\Practice_2-Resume_testing\\features\\step-definitions\\footer.js:21"
             },
             "result": {
               "status": "passed",
-              "duration": 34286900
+              "duration": 43377099
             }
           },
           {
@@ -85,7 +85,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 290113499
+              "duration": 347424800
             }
           }
         ],
@@ -120,7 +120,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 862378200
+              "duration": 920700000
             }
           },
           {
@@ -133,7 +133,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2050934200
+              "duration": 2050626699
             }
           },
           {
@@ -146,7 +146,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 10837300
+              "duration": 11048000
             }
           },
           {
@@ -159,7 +159,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 7750900
+              "duration": 5739300
             }
           },
           {
@@ -167,7 +167,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 2095099
+              "duration": 1060100
             }
           }
         ],
@@ -191,7 +191,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 85977400
+              "duration": 88610300
             }
           },
           {
@@ -204,7 +204,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 17980299
+              "duration": 22109699
             }
           },
           {
@@ -217,7 +217,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 26174999
+              "duration": 22496400
             }
           },
           {
@@ -230,7 +230,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 8677799
+              "duration": 7582700
             }
           },
           {
@@ -243,7 +243,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 17829299
+              "duration": 15187000
             }
           },
           {
@@ -256,7 +256,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 14839299
+              "duration": 13447099
             }
           },
           {
@@ -269,7 +269,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 70228900
+              "duration": 66628600
             }
           },
           {
@@ -277,7 +277,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 2221000
+              "duration": 1751100
             }
           }
         ],
@@ -312,7 +312,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 888958999
+              "duration": 897204499
             }
           },
           {
@@ -325,7 +325,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 14465799
+              "duration": 12668900
             }
           },
           {
@@ -338,7 +338,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 70692699
+              "duration": 69214699
             }
           },
           {
@@ -351,7 +351,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 5133800
+              "duration": 5749099
             }
           },
           {
@@ -359,7 +359,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 2134900
+              "duration": 1429300
             }
           }
         ],

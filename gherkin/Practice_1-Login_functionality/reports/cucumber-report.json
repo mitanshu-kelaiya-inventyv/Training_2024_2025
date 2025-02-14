@@ -4,173 +4,22 @@
     "elements": [
       {
         "description": "",
-        "id": "login-functionality;user-tries-to-log-in",
-        "keyword": "Scenario Outline",
-        "line": 12,
-        "name": "User tries to log in",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 643767100
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 4,
-            "name": "I open the login page",
-            "match": {
-              "location": "features\\step-definitions\\login-steps.js:51"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 117490400
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 7,
-            "name": "I enter \"validUser\" and \"validPass\"",
-            "match": {
-              "location": "features\\step-definitions\\login-steps.js:55"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 167761600
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 8,
-            "name": "I should see \"Welcome to the Home Page!\"",
-            "match": {
-              "location": "features\\step-definitions\\login-steps.js:62"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 25252500
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 284851200
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "login-functionality;user-tries-to-log-in",
-        "keyword": "Scenario Outline",
-        "line": 13,
-        "name": "User tries to log in",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 437015100
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 4,
-            "name": "I open the login page",
-            "match": {
-              "location": "features\\step-definitions\\login-steps.js:51"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 52082700
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 7,
-            "name": "I enter \"invalidUser\" and \"invalidPass\"",
-            "match": {
-              "location": "features\\step-definitions\\login-steps.js:55"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 240668600
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 8,
-            "name": "I should see \"Invalid credentials\"",
-            "match": {
-              "location": "features\\step-definitions\\login-steps.js:62"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 20550899
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 295368999
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      }
-    ],
-    "id": "login-functionality",
-    "line": 1,
-    "keyword": "Feature",
-    "name": "Login functionality",
-    "tags": [],
-    "uri": "features\\login-datatable.feature"
-  },
-  {
-    "description": "",
-    "elements": [
-      {
-        "description": "",
         "id": "login-functionality;user-logs-in-with-valid-credentials",
         "keyword": "Scenario",
         "line": 3,
         "name": "User logs in with valid credentials",
         "steps": [
           {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 434211899
-            }
-          },
-          {
             "arguments": [],
             "keyword": "Given ",
             "line": 4,
             "name": "I open the login page",
             "match": {
-              "location": "features\\step-definitions\\login-steps.js:51"
+              "location": "features\\step-definitions\\login-steps.js:6"
             },
             "result": {
               "status": "passed",
-              "duration": 49107400
+              "duration": 2612793499
             }
           },
           {
@@ -178,9 +27,12 @@
             "keyword": "When ",
             "line": 5,
             "name": "I enter valid credentials",
+            "match": {
+              "location": "features\\step-definitions\\login-steps.js:13"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
+              "status": "passed",
+              "duration": 2313740000
             }
           },
           {
@@ -188,17 +40,12 @@
             "keyword": "Then ",
             "line": 6,
             "name": "I should be redirected to the home page",
-            "result": {
-              "status": "undefined",
-              "duration": 0
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
+            "match": {
+              "location": "features\\step-definitions\\login-steps.js:35"
+            },
             "result": {
               "status": "passed",
-              "duration": 273655900
+              "duration": 263346100
             }
           }
         ],
@@ -213,24 +60,16 @@
         "name": "User logs in with invalid credentials",
         "steps": [
           {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 419795000
-            }
-          },
-          {
             "arguments": [],
             "keyword": "Given ",
             "line": 9,
             "name": "I open the login page",
             "match": {
-              "location": "features\\step-definitions\\login-steps.js:51"
+              "location": "features\\step-definitions\\login-steps.js:6"
             },
             "result": {
               "status": "passed",
-              "duration": 42283199
+              "duration": 498574300
             }
           },
           {
@@ -238,9 +77,12 @@
             "keyword": "When ",
             "line": 10,
             "name": "I enter invalid credentials",
+            "match": {
+              "location": "features\\step-definitions\\login-steps.js:29"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
+              "status": "passed",
+              "duration": 140842700
             }
           },
           {
@@ -248,17 +90,12 @@
             "keyword": "Then ",
             "line": 11,
             "name": "I should see an error message",
-            "result": {
-              "status": "undefined",
-              "duration": 0
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
+            "match": {
+              "location": "features\\step-definitions\\login-steps.js:40"
+            },
             "result": {
               "status": "passed",
-              "duration": 252187700
+              "duration": 110548300
             }
           }
         ],
