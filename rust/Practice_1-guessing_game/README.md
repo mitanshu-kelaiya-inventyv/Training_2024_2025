@@ -5,6 +5,7 @@ This project is a simple number guessing game written in Rust. The program gener
 
 
 ## Project Structure
+```bash
 guessing_game/                   # Project root directory
 │
 ├── src/                         # Source code directory
@@ -12,7 +13,7 @@ guessing_game/                   # Project root directory
 │
 ├── Cargo.lock                   # Lock file for dependencies
 ├── Cargo.toml                   # Cargo project configurations
-
+```
 
 ## Required Dependencies
 1) rand
