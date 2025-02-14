@@ -5,13 +5,14 @@ This project is a simple number guessing game written in Rust. The program gener
 
 
 ## Project Structure
-Practice_1-guessing_game/      # Project root directory
+guessing_game/                   # Project root directory
 │
-├── src/                       # Source code directory
-│   ├── main.rs                # Main Rust program file  
+├── src/                         # Source code directory
+│   ├── main.rs                  # Main Rust program file  
 │
-├── Cargo.lock                 # Lock file for dependencies
-├── Cargo.toml                 # Cargo project configurations
+├── Cargo.lock                   # Lock file for dependencies
+├── Cargo.toml                   # Cargo project configurations
+
 
 ## Required Dependencies
 1) rand
