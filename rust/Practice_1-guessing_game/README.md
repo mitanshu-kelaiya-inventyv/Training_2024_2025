@@ -27,16 +27,17 @@ guessing_game/                   # Project root directory
 
 
 ## How to Run
-1. Clone the repository
+1. Create a new Rust project:
 ```bash
-git clone <repository_url>
-cd guessing_game
+cargo new minigrep
+cd minigrep
 ```
-2. Build the project
+2. Replace src/main.rs and src/lib.rs with the provided code.
+3. Build the project
 ```bash
 cargo build
 ```
-3. Run the game
+4. Run the game
 ```bash
 cargo run
 ```
