@@ -1,3 +1,7 @@
+//Mutex
+//RwLock
+//Rc&Arc
+
 use std::{sync::{Arc, RwLock}, thread::{self, sleep}, time::Duration};
 use rand::Rng;
 
@@ -9,7 +13,7 @@ struct User{
 
 fn id_generator() -> String {
     let mut rng = rand::thread_rng();
-    let id: String = (0..10)  // Generate a 10-character random string
+    let id: String = (0..10)
         .map(|_| rng.sample(rand::distributions::Alphanumeric) as char)
         .collect();
     
